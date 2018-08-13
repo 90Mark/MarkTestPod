@@ -12,5 +12,6 @@ Pod::Spec.new do |s|
   s.source        = { :git => "https://github.com/90Mark/MarkTestPod.git" }
   s.source_files  = "MarkTestPod", "MarkTool/*.{h,m}"
   s.exclude_files = "MarkTestPod/MarkTool"
+  s.platform     = :ios, "8.0"
 
 end
