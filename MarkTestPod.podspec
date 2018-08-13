@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/90Mark/MarkTestPod"
   s.license      = { :type => 'MIT' }   
   s.author       = { "Mark001" => "1989329376@qq.com" }
-  s.source        = { :git => "https://github.com/90Mark/MarkTestPod.git", :tag => "#{s.version}"  }
+  s.source        = { :git => "https://github.com/90Mark/MarkTestPod.git", :tag => "master"  }
   s.source_files  = "MarkTestPod", "MarkTool/*.{h,m}"
   s.exclude_files = "MarkTestPod/MarkTool"
 
