@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
   s.source_files  = "MarkTestPod", "MarkTool/*.{h,m}"
   s.exclude_files = "MarkTestPod/MarkTool"
   s.platform     = :ios, "8.0"
-
+  s.public_header_files = 'MarkTool/MarkTestPod.h'
 end
