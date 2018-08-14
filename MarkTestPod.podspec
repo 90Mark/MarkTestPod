@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT' }   
   s.author       = { "Mark001" => "1989329376@qq.com" }
   s.source        = { :git => "https://github.com/90Mark/MarkTestPod.git" }
-  s.source_files  = "lib/*"
+  s.source_files  = "lib/**/*"
   s.platform     = :ios, "8.0"
   s.public_header_files = "lib/**/*.h"
 end
